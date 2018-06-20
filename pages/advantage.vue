@@ -40,7 +40,7 @@
           </div>
         </div>
       </article>
-      <article class="columns is-mobile">
+      <article class="columns is-mobile"> 
           <div class="column">
             <div class="notification">
               <div class="message-header">
