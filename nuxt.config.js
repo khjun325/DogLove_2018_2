@@ -3,14 +3,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "doglove",
+    title: "hjfirstportfolio",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "대한민국 애견인의 개사랑"
+        content: "형준의 포트폴리오"
       }
     ],
     link: [

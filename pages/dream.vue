@@ -1,4 +1,5 @@
 <template>
+
     <section class="section">
       <div class="hero is-dark">
         <div class="hero-body">
@@ -13,14 +14,11 @@
         <div class="column">
           <div class="notification">
             <div class="message-header">
-              <div style="font-size:20pt"> 1. java</div>
+              <div style="font-size:20pt"> 인생 그래프</div>
             </div>
-            <div class="message-body">
-              <div style="font-size:15pt">
-                <strong>숙련도</strong>
-              </div>
-            </div>
-            <progress class="progress is-link" value="60" max="100"></progress>
+            <template>
+                    <div id="chart-area"></div>
+                  </template>
           </div>
         </div>
       </article>
@@ -29,32 +27,41 @@
           <div class="column">
             <div class="notification">
               <div class="message-header">
-                <div style="font-size:20pt"> 2. C언어</div>
+                <div style="font-size:20pt"> 향후 계획</div>
               </div>
               <div class="message-body">
                 <div style="font-size:15pt">
-                  <strong>숙련도</strong>
+                        <table class="table is-striped is-bordered">
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <center><strong>2020~2029</strong></center></td>
+                                    <td>취직 및 개인 능력 향상</td>
+                                  </tr>
+                                  <tr>
+                                      <td><center><strong>2030~2039</strong></center></td>
+                                    <td>결혼하여 가정을 꾸리며 보안쪽으로 전향</td>
+                                  </tr>
+                                  <tr>
+                                    <td><center><strong>2040~2049</strong></center></td>
+                                    <td>해외로 뻗어 나가기 위한 준비 및 해외 진출</td>
+                                  </tr>
+                                  <tr>
+                                    <td><center><strong>2050~2059</strong></center></td>
+                                    <td>세계적으로 인정받는 보안 전문가</td>
+                                  </tr>
+                                  <tr>
+                                    <td><center><strong>2060~</strong></center></td>
+                                    <td>노후를 한적한 시골에서 보내기</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                 </div>
               </div>
-              <progress class="progress is-danger" value="50" max="100"></progress>
             </div>
           </div>
         </article>
-        <article class="columns is-mobile"> 
-            <div class="column">
-              <div class="notification">
-                <div class="message-header">
-                  <div style="font-size:20pt"> 3. Node.js</div>
-                </div>
-                <div class="message-body">
-                  <div style="font-size:15pt">
-                    <strong>숙련도</strong>
-                  </div>
-                </div>
-                <progress class="progress is-success" value="70" max="100"></progress>
-              </div>
-            </div>
-          </article>
+        
   
       <article class="box">
         <center>
@@ -70,9 +77,13 @@
       </article>
     </section>
   </template>
-  
-  <style>
-  
-  
-  </style>
+
+      <script>
+        import myChart from '~/plugins/myBarChart';
+        export default {
+              mounted() {
+                  if (process.client) { myChart('chart-area'); }
+             }
+        };
+      </script>
   

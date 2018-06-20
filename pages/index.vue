@@ -15,7 +15,7 @@
     </div>
     <article class="message">
       <div class="message-header">김형준</div>
-      <div class="message-body">특징 : 커피를 상당히 좋아함
+      <div class="message-body">커피를 상당히 좋아하며 한번 작업을 시작하면 끝을 볼때까지 하는 집중력을 가진 엔지니어
       </div>
     </article>
     <article class="columns">
@@ -33,7 +33,7 @@
                     <i class="fas fa-upload"></i>
                   </span>
                   <span class="file-label">
-                    <a href="http://naver.me/F1jV5Swl" download>이력서 다운로드</a>
+                    <a href="http://naver.me/5az2Tt79" download>이력서 다운로드</a>
                   </span>
                 </span>
               </label>
