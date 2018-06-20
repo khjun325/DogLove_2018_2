@@ -13,7 +13,7 @@
       <div class="column">
         <div class="notification">
           <figure class="image is-480x800">
-            <img src="../static/aaa.jpg">
+            <img src="../static/me.jpg">
           </figure>
         </div>
       </div>
@@ -37,7 +37,7 @@
                   </tr>
                   <tr>
                     <td><center><strong>가족관계</strong></center></td>
-                    <td>아빠 엄마 동생</td>
+                    <td>아버지 어머니 여동생</td>
                   </tr>
                   <tr>
                     <td><center><strong>거주지</strong></center></td>
@@ -53,7 +53,7 @@
                   </tr>
                   <tr>
                     <td><center><strong>연락처</strong></center></td>
-                    <td>010-9582-0283</td>
+                    <td>010-xxxx-xxxx</td>
                   </tr>
                 </tbody>
               </table>

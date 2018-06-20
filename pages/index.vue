@@ -43,8 +43,10 @@
       </div>
     </article>
 <center>
+  이미지 클릭시 해당 사이트 김형준의 계정으로 이동합니다.
+  <br>
     <figure class="image is-128x128">
-        <a href="https://www.facebook.com/profile.php?id=100005101772248">
+        <a href="https://www.facebook.com/khjun325">
           <img src="~static/facebook.png">
           </a>
           <br>
